@@ -1,0 +1,82 @@
+{
+  "name": "react-redux-app",
+  "version": "1.0.0",
+  "description": "React Redux App",
+  "main": "main.js",
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "better-npm-run dev",
+    "build": "better-npm-run compile"
+  },
+  "betterScripts": {
+    "dev": {
+      "command": "gulp dev",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "compile": {
+      "command": "gulp build",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thondery@github.com/thondery/react-redux-app.git"
+  },
+  "author": "thondery <thondery@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thondery/react-redux-app/issues"
+  },
+  "homepage": "https://github.com/thondery/react-redux-app#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "better-npm-run": "0.0.10",
+    "css-loader": "^0.23.1",
+    "debug": "^2.2.0",
+    "del": "^2.2.1",
+    "eslint": "^3.2.2",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-react": "^6.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-watch": "^4.3.9",
+    "gulp-webpack": "^1.5.0",
+    "gulp-webserver": "^0.9.1",
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "yargs": "^4.8.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "history": "^2.1.2",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
+    "react-router-redux": "^4.0.5",
+    "redbox-react": "^1.3.0",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}

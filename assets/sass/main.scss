@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.activeRoute {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.mainContainer {
+  padding-top:20px;
+}
+
+.duck {
+  display: block;
+  width: 120px;
+  margin: 1.5rem auto;
+}
+
+.counter {
+  font-weight: bold;
+}
+
+.counter-green {
+  
+  color: rgb(25,200,25);
+}
+
+.counterContainer {
+  margin: 1em auto;
+}
