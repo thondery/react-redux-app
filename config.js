@@ -6,8 +6,8 @@ import { argv } from 'yargs'
 const config = {
   env: process.env.NODE_ENV || 'development',
   path_base: path.resolve(__dirname, './'),
-  dev_host: 'loaclhost',
-  dev_port: 3000,
+  dev_host: 'localhost',
+  dev_port: 3004,
   dir_dist: 'dist',
   dir_client: 'src',
   dir_test: 'tests',
