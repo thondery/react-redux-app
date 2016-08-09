@@ -1,6 +1,6 @@
 # react-redux-app
 
-React + Redux 项目使用范本，根据react-cli生成的项目修改
+React + Redux 项目使用范本，根据redux-cli生成的项目修改
 
 ### 使用
 
